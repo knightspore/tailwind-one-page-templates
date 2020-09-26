@@ -6,6 +6,6 @@ All designed by me, [Ciaran](https://ciaran.co.za/) as front-end practice. All o
 
 Find a short description of each template below:
 
-### [Trendy Blue Fintech - Sep 26 2020](https://github.com/knightspore/tailwind-one-page-templates/tree/master/trendy-blue-fintech)
+### [#1 Trendy Blue Fintech](https://github.com/knightspore/tailwind-one-page-templates/tree/master/trendy-blue-fintech)
 
 This is a great simple starter for a fintech / administrative industry-type website. It's clear, stark, trustworthy and welcoming, and uses Epilogue as a base font. Main colours used: **blue** and **indigo**
