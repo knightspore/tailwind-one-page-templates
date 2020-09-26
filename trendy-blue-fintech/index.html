@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap" rel="stylesheet"> 
+    <title>Document</title>
+    <style>
+        body {
+            font-family: 'Epilogue', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Nav -->
+    <nav class="p-6 w-full flex justify-between items-center absolute top-0 text-white">
+        <span class="flex">
+            <svg class="m-auto w-10 h-10" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.496 2.132a1 1 0 00-.992 0l-7 4A1 1 0 003 8v7a1 1 0 100 2h14a1 1 0 100-2V8a1 1 0 00.496-1.868l-7-4zM6 9a1 1 0 00-1 1v3a1 1 0 102 0v-3a1 1 0 00-1-1zm3 1a1 1 0 012 0v3a1 1 0 11-2 0v-3zm5-1a1 1 0 00-1 1v3a1 1 0 102 0v-3a1 1 0 00-1-1z" clip-rule="evenodd"></path></svg>
+        </span>
+        <ul class="flex flex-1 justify-end gap-x-4 font-bold text-right">
+            <li class="rounded-sm border-b-2 p-1">Home</li>
+            <li class="p-1 text-blue-300">Pricing</li>
+            <li class="p-1 text-blue-300">Blog</li>
+        </ul>
+    </nav>
+
+    <!-- Hero -->
+    <section class="px-12 min-h-screen grid md:grid-cols-2 bg-gradient-to-br text-white from-indigo-700 to-blue-900">
+        <div class="flex flex-col text-right justify-end md:justify-center items-center col-span-1">
+            <span class="max-w-lg">
+                <h1 class="text-6xl font-bold tracking-wide">Things you Need.</h1>
+                <p class="text-lg p-1">Yes, we have got it. All of it, and that's on god. Join us in our journey to becoming the #1 thing on the planet.</p>
+                <div class="flex justify-end py-4 space-x-6">
+                    <button class="px-4 py-2 font-bold shadow-md hover:shadow-lg border-t border-indigo-300 bg-indigo-600 hover:bg-indigo-500 rounded transition-colors duration-300">Learn More</button>
+                    <button class="px-4 py-2 flex items-center gap-x-2 font-bold shadow-md hover:shadow-lg border-t text-indigo-600 border-gray-600 bg-gray-100 hover:bg-gray-300 rounded transition-colors duration-300"><svg class="m-auto transform -translate-y-px w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M17.778 8.222c-4.296-4.296-11.26-4.296-15.556 0A1 1 0 01.808 6.808c5.076-5.077 13.308-5.077 18.384 0a1 1 0 01-1.414 1.414zM14.95 11.05a7 7 0 00-9.9 0 1 1 0 01-1.414-1.414 9 9 0 0112.728 0 1 1 0 01-1.414 1.414zM12.12 13.88a3 3 0 00-4.242 0 1 1 0 01-1.415-1.415 5 5 0 017.072 0 1 1 0 01-1.415 1.415zM9 16a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg> Connect</button>
+                </div>
+            </span>
+        </div>
+        <div class="col-span-1 flex">
+            <svg class="my-auto mr-auto ml-none animate__animated animate__pulse animate__slow animate__infinite h-2/3 w-2/3    " xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1080 1080"><defs><style>.cls-1,.cls-4,.cls-6{fill:#e1ecff;}.cls-2{isolation:isolate;}.cls-3{fill:#c7dcf9;}.cls-11,.cls-14,.cls-4,.cls-6{mix-blend-mode:multiply;}.cls-5{clip-path:url(#clip-path);}.cls-6{opacity:0.51;}.cls-7{fill:#1c3177;}.cls-11,.cls-8{fill:#ff97c9;}.cls-9{fill:#fec272;}.cls-10{fill:#fff;opacity:0.48;mix-blend-mode:soft-light;}.cls-11{opacity:0.5;}.cls-12,.cls-13,.cls-14{fill:#99adf9;}.cls-13{opacity:0.44;}.cls-14{opacity:0.64;}</style><clipPath id="clip-path"><path class="cls-1" d="M555.73,633.88s69.93.45,89.58,5.47,71.66,122.73,93.18,134S778.29,765.9,802,752s45.44-30.72,46.12-37.74-9.39-35.07-18.1-40.73-34-6.06-47.49,2.58c-19.82-54-48-132.75-73.84-143.59s-104.15-16-104.15-16Z"/></clipPath></defs><g class="cls-2"><g id="Layer_3" data-name="Layer 3"><path class="cls-3" d="M289.08,381.9s-34,13.45-39,46.12,72.26,128.37,72.26,128.37L560.6,428,485.27,295.8Z"/><path class="cls-1" d="M341.76,412.78S316.69,438.52,309,467s-8.68,79.34-7.4,98.39C339,600,486.83,571,486.83,571L629.29,403.42S605.14,357.57,592.88,345s-52-28.2-97.85-9.75C468.12,373.44,341.76,412.78,341.76,412.78Z"/><path class="cls-4" d="M330.57,426.09s55.31,17.75,117.57-6.3S521.68,328,521.68,328L495,335.26,341.76,412.78Z"/><path class="cls-1" d="M555.73,633.88s69.93.45,89.58,5.47,71.66,122.73,93.18,134S778.29,765.9,802,752s45.44-30.72,46.12-37.74-9.39-35.07-18.1-40.73-34-6.06-47.49,2.58c-19.82-54-48-132.75-73.84-143.59s-104.15-16-104.15-16Z"/><g class="cls-5"><path class="cls-6" d="M629.29,582.34s56.94,6.23,72.67,27.42,46.9,150.85,81.79,153.92c.56,42-71.7,57.17-71.7,57.17L538.84,628.39Z"/></g><path class="cls-1" d="M367.85,623.26s43,90.19,82,114.79S559.51,760.66,579,776.77s15.37,93.5,34.85,114,46.89,33.06,72.51,30.75,46.12-14.6,46.38-26.13-.77-21.53-12.81-27.68-29-11.27-29.73-18.44-14.35-116.33-20-146-49.53-70.94-106.08-91.73c-53.55-44.84-135.8-25.63-135.8-25.63Z"/><path class="cls-4" d="M380.36,647.39s49.35,2.52,93.67-16.95c-8.47-45.1-34.6-58.42-34.6-58.42l-71.58,51.24Z"/><path class="cls-1" d="M448.65,176.4C410,155.71,329,148.73,279,210.74S253.92,337.06,274.93,367c22,31.42,97.62,79.44,178.33,34.34S542.43,226.62,448.65,176.4Z"/><path class="cls-7" d="M442,214.32c34.33,8.2,56.63,56.37,45.1,102.49s-51.25,77.13-95.83,77.38S302.36,364,302.6,307.08C302.84,252.38,367.45,196.52,442,214.32Z"/><path class="cls-4" d="M343.09,574.58c44.73-20.76,11.27-68.16,55.86-78.94C457.74,504,474,501,474,501S361.53,599.78,343.09,574.58Z"/><polygon class="cls-8" points="380.36 447.8 454.8 639.35 560.11 636.84 656.45 575.86 685.15 488.74 615.46 279.66 581.63 377.54 494 447.23 380.36 447.8"/><path class="cls-1" d="M343.09,574.58c24.68-2,37.25-18.07,44.73-25.2,3.81-3.64,3.05-6.83,1.13-17.33s4.74-21.27,13.84-25.88c5,13.45,11.14,16,15.88,15.37s9.61-28.95,25.11-28.7,27.93,20.76,30,31-7.94,39.45-20.5,59.95S423,629.67,383.11,637.61s-62.57-12.43-75.64-38.18c-4.41-8.69-6-20.7-5.86-34.08C301.61,565.35,310.54,577.14,343.09,574.58Z"/><path class="cls-1" d="M639.46,351.67s4.75,15.45,1.55,21.47-7.56,11-10.76,18.71,1.54,36.77,15.63,41.76,25.75-8.07,29.47-15.63,1.66-27.41-3.85-41.25S655.63,350.59,639.46,351.67Z"/><path class="cls-9" d="M655.66,159.71l3.16,6.4a2.65,2.65,0,0,0,2,1.46l7.07,1a2.67,2.67,0,0,1,1.48,4.56l-5.11,5a2.66,2.66,0,0,0-.77,2.36l1.2,7a2.67,2.67,0,0,1-3.87,2.82l-6.33-3.32a2.65,2.65,0,0,0-2.48,0l-6.33,3.32a2.67,2.67,0,0,1-3.88-2.82l1.21-7a2.66,2.66,0,0,0-.77-2.36l-5.11-5a2.67,2.67,0,0,1,1.48-4.56l7.07-1a2.65,2.65,0,0,0,2-1.46l3.16-6.4A2.68,2.68,0,0,1,655.66,159.71Z"/><path class="cls-9" d="M317.34,837l2.65,5.37a2.2,2.2,0,0,0,1.68,1.22l5.93.86a2.24,2.24,0,0,1,1.24,3.82l-4.29,4.18a2.22,2.22,0,0,0-.64,2l1,5.9a2.25,2.25,0,0,1-3.25,2.37l-5.3-2.79a2.25,2.25,0,0,0-2.08,0L309,862.7a2.24,2.24,0,0,1-3.25-2.37l1-5.9a2.26,2.26,0,0,0-.65-2l-4.28-4.18a2.24,2.24,0,0,1,1.24-3.82l5.92-.86a2.23,2.23,0,0,0,1.69-1.22l2.65-5.37A2.24,2.24,0,0,1,317.34,837Z"/><ellipse class="cls-10" cx="408.56" cy="256.06" rx="45.63" ry="16.14" transform="translate(-45.54 93.94) rotate(-12.43)"/><path class="cls-4" d="M468.08,552.56s-28.31-25.3-33.44-25.3-18.79,20-15.71,25.3,18.9,22.66,36.27,28C460.83,569.82,468.08,552.56,468.08,552.56Z"/><polygon class="cls-11" points="494 447.23 560.11 636.84 656.45 575.86 581.63 377.54 494 447.23"/><path class="cls-4" d="M675.87,739.49a123,123,0,0,1-33,19.57c-11.21,4.32-15,13.16-11.61,29.38s5.29,41.51,12.29,48.17,31.08,3.12,43.56-12.36C683.2,793.75,675.87,739.49,675.87,739.49Z"/><path class="cls-4" d="M741.12,574.12s-14,6.1-12.67,15.83,15.63,56.76,21.27,61,22.33-3.28,22.33-3.28C754.91,599.11,741.12,574.12,741.12,574.12Z"/><path class="cls-12" d="M150.32,686.66c-11.13-23.08,25.14-47.78,56-46s43.83,30.27,54.76,40.9c22.83,22.18,22.11,43.88,6.3,53.21S165.05,717.19,150.32,686.66Z"/><path class="cls-12" d="M772.88,329.11c-9-7.88.26-44.92,21.52-53.59s47.66.81,53.3,15.67S791.33,345.25,772.88,329.11Z"/><path class="cls-12" d="M877.06,348.93c-4.61,6.57-7.68,25.28,2.05,28.61s17.09-15.92,13.67-25.94S880.14,344.54,877.06,348.93Z"/><path class="cls-13" d="M884.06,197.1c-7.26,3.42-19.23,18.12-12.43,25.85s22.73-5.33,24.74-15.72S888.91,194.82,884.06,197.1Z"/><path class="cls-13" d="M201.38,783.77c-6.28-5-24.75-9.25-28.69.26s14.82,18,25,15.26S205.56,787.11,201.38,783.77Z"/><path class="cls-14" d="M255.61,675.23c-11.17,2.1-9.37,12.09-5.79,21.14S266,708,274.89,699.73C269.12,686,255.61,675.23,255.61,675.23Z"/><path class="cls-14" d="M191.4,660.16c-8,.89-14.52,12.47-8.88,21.86s16.39,16.23,22.54,13.67,7.18-16.4,2.74-25.28S199.09,659.3,191.4,660.16Z"/><path class="cls-14" d="M822.74,283.5c-4.39,1.4-8.84,6.15-8.45,11.28s4.87,9.61,9.73,9,9-8.46,8-14.1S826.09,282.44,822.74,283.5Z"/><path class="cls-14" d="M776.25,293.5s6,6,5,12.81-11.34,6.18-11.34,6.18S771.45,300.88,776.25,293.5Z"/></g></g></svg>
+        </div>
+    </section>
+
+    <!-- Offerings -->
+    <section class="py-48 text-center bg-gradient-to-b from-blue-100 to-white text-indigo-900">
+        <h2 class="text-4xl font-bold text-blue-900 mb-4">What have we got?</h2>
+        <div class="grid md:grid-cols-3 gap-4 my-8 px-6 lg:px-64">
+            <div class="col-span-1 flex flex-col bg-white rounded-lg overflow-hidden border-indigo-300 shadow">
+                <div class="m-2 py-8 space-y-4">
+                    <svg class="m-auto w-16 h-16 p-4 bg-blue-900 text-indigo-300 rounded-full border-indigo-300 border-2 shadow" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 6a3 3 0 013-3h10a1 1 0 01.8 1.6L14.25 8l2.55 3.4A1 1 0 0116 13H6a1 1 0 00-1 1v3a1 1 0 11-2 0V6z" clip-rule="evenodd"></path></svg>
+                    <h3 class="px-4">We have the best stuff you can find in the Southern Hemisphere, from suppliers around the world.</h3>
+                </div>
+                <button class="flex-1 w-full py-4 font-bold bg-indigo-300 shadow-inner hover:text-indigo-200 hover:bg-indigo-700 transition-colors duration-300">Explore &rarr;</button>
+            </div>
+            <div class="col-span-1 flex flex-col bg-white rounded-lg overflow-hidden border-indigo-300 shadow">
+                <div class="m-2 py-8 space-y-4">
+                    <svg class="m-auto w-16 h-16 p-4 bg-blue-900 text-indigo-300 rounded-full border-indigo-300 border-2 shadow" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 0l-3 3a1 1 0 001.414 1.414L9 9.414V13a1 1 0 102 0V9.414l1.293 1.293a1 1 0 001.414-1.414z" clip-rule="evenodd"></path></svg>
+                    <h3 class="px-4">Our ratings are some of the best in the Solar System, and we've won many intergalatic awards.</h3>
+                </div>
+                <button class="flex-1 w-full py-4 font-bold bg-indigo-300 shadow-inner hover:text-indigo-200 hover:bg-indigo-700 transition-colors duration-300">Testimonials &rarr;</button>
+            </div>
+            <div class="col-span-1 flex flex-col bg-white rounded-lg overflow-hidden border-indigo-300 shadow">
+                <div class="m-2 py-8 space-y-4">
+                    <svg class="m-auto w-16 h-16 p-4 bg-blue-900 text-indigo-300 rounded-full border-indigo-300 border-2 shadow" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M4 3a2 2 0 100 4h12a2 2 0 100-4H4z"></path><path fill-rule="evenodd" d="M3 8h14v7a2 2 0 01-2 2H5a2 2 0 01-2-2V8zm5 3a1 1 0 011-1h2a1 1 0 110 2H9a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+                    <h3 class="px-4">Everything we stock is delivered right to your doorstep! Fully intact and without hassle or issue.</h3>
+                </div>
+                <button class="flex-1 w-full py-4 font-bold bg-indigo-300 shadow-inner hover:text-indigo-200 hover:bg-indigo-700 transition-colors duration-300">Pricing &rarr;</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- E-mail Sign Up -->
+    <section class="pb-48 px-5 text-center bg-blue-200 bg-cover" style="background-image: url('./background.svg')">
+        <h2 class="text-4xl font-bold text-blue-900 mb-4">Be in Charge of your Own Things.</h2>
+        <p class="px-5 text-lg text-blue-900">Sign up now for <span>20% off*</span> for your first three-year plan. Refer a friend and get bumped up to 25% off!</p>
+        <form class="m-auto p-12 text-lg flex flex-col md:flex-row gap-4 justify-center">
+            <input class="p-4 rounded-md bg-blue-100 shadow-md placeholder-blue-900 text-indigo-900" type="text" name="name" id="name" placeholder="Your Name"/>
+            <input class="p-4 rounded-md bg-blue-100 shadow-md placeholder-blue-900 text-indigo-900" type="email" name="email" id="email" placeholder="Your Email"/>
+            <input class="p-4 rounded-md font-bold bg-blue-900 border-indigo-300 shadow-md hover:shadow-lg border-t-2 text-white hover:bg-indigo-600 hover:border-indigo-300 text-white transition-colors duration-300" type="submit" value="Sign Up">
+        </form>
+    </section>
+    
+    <!-- Our Partners -->
+    <section class="py-24 pt-0 text-center bg-gradient-to-b from-blue-200 to-indigo-300">
+        <h2 class="text-4xl font-bold text-blue-900 py-4">Our Proud Partners</h2>
+        <div class="grid grid-cols-6 md:grid-cols-5" style="filter: grayscale(100%);">
+            <img class="col-span-2 md:col-start-2 md:col-end-3 md:col-span-1" src="azure.svg" alt="">
+            <img class="col-span-2 md:col-span-1" src="ripple.svg" alt="">
+            <img class="col-span-2 md:col-span-1" src="shareit.svg" alt="">
+        </div>
+        <img class="max-w-3xl m-auto animate__animated animate__pulse animate__slower animate__infinite" src="idea.svg" alt="">
+    </section>
+    <footer class="text-center p-12 font-bold text-blue-900 bg-indigo-300">&copy; the design agency 2020 - all rights reserved.</footer>
+</body>
+</html>
