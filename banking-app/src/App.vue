@@ -1,12 +1,20 @@
 <template>
   <head-slot>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
   </head-slot>
-  <div class="min-h-screen bg-gradient-to-b from-blue-50 to-indigo-100 font-inter antialiased">
-    <Dashboard/>
-    <div class="sticky bottom-0">
-      <Nav/>
+  <div class="min-h-screen min-w-screen flex bg-purple-500">
+    <div
+      class="m-auto bg-gradient-to-b from-blue-50 to-indigo-100 font-inter antialiased overflow-y-hidden overflow-y-scroll border-8 border-indigo-900 sm:rounded-3xl panel shadow-xl"
+      style="height: 667px;"
+    >
+      <Dashboard />
+      <div class="sticky bottom-0">
+        <Nav />
+      </div>
     </div>
   </div>
 </template>
@@ -23,3 +31,14 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+.panel::webkit-scrollbar {
+  display: none;
+}
+
+.panel {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+</style>

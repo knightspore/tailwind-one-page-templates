@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'inter': ['Inter', 'system-ui'], 
+        inter: ["Inter", "system-ui"]
       }
     }
   },
