@@ -8,7 +8,7 @@
   </head-slot>
   <div class="min-h-screen min-w-screen flex bg-indigo-100 sm:bg-purple-500">
     <div
-      class="m-auto font-inter antialiased sm:overflow-y-hidden sm:overflow-y-scroll sm:border-8 border-indigo-900 sm:rounded-3xl panel sm:bg-gradient-to-b from-blue-50 to-indigo-100 sm:shadow-xl"
+      class="m-auto font-inter antialiased sm:overflow-y-hidden sm:overflow-y-scroll sm:border-12 sm:border-b-18 border-indigo-900 sm:rounded-3xl panel sm:bg-gradient-to-b from-blue-50 to-indigo-100 sm:shadow-xl"
       style="height: 667px; width: 390px;"
     >
       <Dashboard />
