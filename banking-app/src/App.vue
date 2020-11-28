@@ -6,10 +6,10 @@
       rel="stylesheet"
     />
   </head-slot>
-  <div class="min-h-screen min-w-screen flex bg-purple-500">
+  <div class="min-h-screen min-w-screen flex bg-indigo-100 sm:bg-purple-500">
     <div
-      class="m-auto bg-gradient-to-b from-blue-50 to-indigo-100 font-inter antialiased overflow-y-hidden overflow-y-scroll border-8 border-indigo-900 sm:rounded-3xl panel shadow-xl"
-      style="height: 667px;"
+      class="m-auto font-inter antialiased sm:overflow-y-hidden sm:overflow-y-scroll sm:border-8 border-indigo-900 sm:rounded-3xl panel sm:bg-gradient-to-b from-blue-50 to-indigo-100 sm:shadow-xl"
+      style="height: 667px; width: 390px;"
     >
       <Dashboard />
       <div class="sticky bottom-0">
